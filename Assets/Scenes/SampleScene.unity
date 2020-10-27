@@ -213,14 +213,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 835716149}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a48444d273fbb484eb721f4877ae5c7f, type: 3}
+  m_Script: {fileID: 11500000, guid: ef3ee23d3ec79f348b07b5a104c35c89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 40
-  height: 40
+  width: 100
+  height: 100
   cellSize: 1.1
-  time: 0.5
-  cellPrefab: {fileID: 2760839802205945410, guid: 6537b9bc82f4e0646bcd532b1804cc79,
+  time: 0.2
+  cellPrefab: {fileID: 1156073855582461247, guid: bad35ebd03d7339489195a7f29422d7a,
     type: 3}
 --- !u!4 &835716152
 Transform:
@@ -480,7 +480,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 835716150}
+      - m_Target: {fileID: 0}
         m_MethodName: Game
         m_Mode: 1
         m_Arguments:
